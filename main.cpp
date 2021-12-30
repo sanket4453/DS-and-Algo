@@ -4,7 +4,8 @@ using namespace std;
 
 int main(){
   // cout << "This is second program" <<endl;
-  int a = 123;
+  // Intro About Data types and variables
+ /* int a = 123;
   cout << a << endl;
 
   char ch = 'b';
@@ -28,6 +29,29 @@ int main(){
     cout << s2 << endl;
      cout << s3 << endl;
       cout << s4 << endl;
-       cout << s5 << endl;
+       cout << s5 << endl; */
 
+// Intro about Operaters
+int a = 2;
+int b = 3;
+
+int first = a==b;
+cout << first << endl;
+
+int second = a<b;
+cout << second << endl;
+
+int third = a>b;
+cout << third << endl;
+
+int four = a<=b;
+cout << four << endl;
+
+int fifth = a>=b;
+cout << fifth << endl;
+
+int six = a!=b;
+cout << six << endl;
+
+// Some more operators are also availabe && || !
 }
