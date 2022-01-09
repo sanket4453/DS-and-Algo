@@ -36,16 +36,40 @@ int main(){
   // }
   //H/W
 
-  char ch;
-  cout << " Enter Charater"<< endl;
-  cin >> ch;
+  // char ch;
+  // cout << " Enter Charater"<< endl;
+  // cin >> ch;
 
-  if(ch >='a' && ch <='z'){
-    cout << "Lower Case" << endl;
-  }else if(ch>='A' && ch<= 'Z'){
-    cout << "Upper Case" << endl;
-  }else if(ch>= '0' && ch<='9'){
-    cout << "Numeric Value"<<endl;
+  // if(ch >='a' && ch <='z'){
+  //   cout << "Lower Case" << endl;
+  // }else if(ch>='A' && ch<= 'Z'){
+  //   cout << "Upper Case" << endl;
+  // }else if(ch>= '0' && ch<='9'){
+  //   cout << "Numeric Value"<<endl;
+  // }
+
+
+// Sum of all number upto N
+  // int n;
+  // cin>>n;
+  // int sum = 0;
+  // int i=2;
+  // while(i<=n){
+  //   sum = sum+i;
+  //   i=i+2;
+  // }
+  // cout<<"Sum is "<<sum;
+  
+int n;
+cin>>n;
+int i = 2;
+while(i<n){
+  if(n%i==0){
+    cout<<"Not prime for "<<i<<endl;
+  }else{
+    cout<< "Prime for "<<i<<endl;
   }
+  i = i+1;
+}
 
 }
